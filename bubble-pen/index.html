@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="label">筆圧:<span id="num">0</span></div>
+    <script src="app.js"></script>
+    <style>
+      html, body { margin: 0; padding: 0; background-color: #2f3844; }
+      .label {
+        position: absolute;
+        top: 10px; left: 10px;
+        font-size: 30px;
+        color: rgba(255,255,255,0.7);
+      }
+      .label #num {
+        margin-left: 10px;
+        display: inline-block;
+        color: #fff;
+      }
+    </style>
+  </body>
+</html>
